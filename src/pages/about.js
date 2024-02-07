@@ -58,9 +58,9 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I'm <strong>Adrià</strong>, a programmer who has learned to code in Kotlin and continued the journey with JavaScript, 
+                Hi, I&apos;m <strong>Adrià</strong>, a programmer who has learned to code in Kotlin and continued the journey with JavaScript, 
                 focusing on web applications using various frameworks. My expertise lies in crafting efficient and versatile 
-                solutions, and I'm eager to explore new technologies while contributing to the success of upcoming projects.
+                solutions, and I&apos;m eager to explore new technologies while contributing to the success of upcoming projects.
               </p>
             </div>
             {/* <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
