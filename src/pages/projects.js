@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import proj2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/captReceptes.png";
+import proj2 from "../../public/images/projects/captReceptes.png";
+import proj3 from "../../public/images/projects/captReceptes.png";
+import proj4 from "../../public/images/projects/captReceptes.png";
+import proj5 from "../../public/images/projects/captReceptes.png";
+import proj6 from "../../public/images/projects/captReceptes.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -192,11 +192,11 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
+                type="Laravel"
+                title="Web to store recipes"
                 img={proj2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://receptes.xdriim.es/receptes"
+                github="https://github.com/xdriim/Administrar-recetas"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
