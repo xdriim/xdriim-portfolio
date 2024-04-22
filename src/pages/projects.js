@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/captReceptes.png";
+import proj1 from "../../public/images/projects/captSUP.png";
 import proj2 from "../../public/images/projects/captReceptes.png";
 import proj3 from "../../public/images/projects/captReceptes.png";
 import proj4 from "../../public/images/projects/captReceptes.png";
-import proj5 from "../../public/images/projects/captReceptes.png";
+import proj5 from "../../public/images/projects/captGC.png";
 import proj6 from "../../public/images/projects/captReceptes.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -21,7 +21,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
     <article
       className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
 border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark  lg:flex-col 
-lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4 
+lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
     "
     >
       <div
@@ -187,7 +187,7 @@ export default function Projects() {
                 summary=""
                 img={proj1}
                 link=""
-                github=""
+                github="https://github.com/joanitb/SUP-Skool-Leeuwarden-WEB-RENTAL"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -201,39 +201,39 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type=""
+                title=""
                 img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link=""
+                github=""
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                type=""
+                title=""
+                summary=""
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link=""
+                github=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="HTML, CSS & JS"
                 img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                title="Guess the secret code"
+                link="https://adivinaelcodigo.xdriim.es/"
+                github="https://github.com/xdriim/AdivinaElCodigo"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type=""
                 img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                title=""
+                link=""
+                github=""
               />
             </div>
           </div>
