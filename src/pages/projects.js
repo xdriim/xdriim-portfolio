@@ -8,9 +8,8 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/captSUP.png";
 import proj2 from "../../public/images/projects/captReceptes.png";
 import proj3 from "../../public/images/projects/captReceptes.png";
-import proj4 from "../../public/images/projects/captReceptes.png";
 import proj5 from "../../public/images/projects/captGC.png";
-import proj6 from "../../public/images/projects/captReceptes.png";
+import proj6 from "../../public/images/projects/captBicing.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -208,16 +207,6 @@ export default function Projects() {
                 github=""
               />
             </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                type=""
-                title=""
-                summary=""
-                img={proj4}
-                link=""
-                github=""
-              />
-            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="HTML, CSS & JS"
@@ -229,11 +218,11 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type=""
+                type="JavaScript"
                 img={proj6}
-                title=""
-                link=""
-                github=""
+                title="Bicing with Leafet"
+                link="http://bicingleafet.xdriim.es/"
+                github="https://github.com/xdriim/Bicing.git"
               />
             </div>
           </div>
