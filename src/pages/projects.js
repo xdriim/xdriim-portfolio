@@ -96,7 +96,7 @@ const Project = ({ title, type, img, link, github }) => {
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
       border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark 
       xs:p-4
-      "
+      " style={{ height: '500px' }}
     >
       <div
         className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark
