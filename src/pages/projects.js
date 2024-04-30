@@ -6,8 +6,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/captSUP.png";
-import proj2 from "../../public/images/projects/captReceptes.png";
-import proj3 from "../../public/images/projects/captReceptes.png";
+import proj2 from "../../public/images/projects/captPlaques.png";
+import proj3 from "../../public/images/projects/captApiPlaques.png";
+import proj4 from "../../public/images/projects/captReceptes.png";
 import proj5 from "../../public/images/projects/captGC.png";
 import proj6 from "../../public/images/projects/captBicing.png";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -185,26 +186,35 @@ export default function Projects() {
                 title="Website for rental canoes and SUPS in Leeuwarden"
                 summary=""
                 img={proj1}
-                link=""
+                link="https://supleeuwarden.xdriim.es/"
                 github="https://github.com/joanitb/SUP-Skool-Leeuwarden-WEB-RENTAL"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Laravel"
-                title="Web to store recipes"
+                title="Website to show photovoltaic panels"
                 img={proj2}
-                link="https://receptes.xdriim.es/receptes"
-                github="https://github.com/xdriim/Administrar-recetas"
+                link="https://plaques.xdriim.es/"
+                github="https://github.com/xdriim/PlaquesFotovoltaiques"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type=""
-                title=""
+                type="Laravel"
+                title="Api of photovoltaic panels"
                 img={proj3}
-                link=""
-                github=""
+                link="http://apiplaques.xdriim.es/api/plaques"
+                github="https://github.com/xdriim/apiPlaques"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type="Laravel"
+                title="Web to store recipes"
+                img={proj4}
+                link="https://receptes.xdriim.es/receptes"
+                github="https://github.com/xdriim/Administrar-recetas"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
